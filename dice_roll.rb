@@ -4,6 +4,6 @@
 
 def roll
   # code goes here
-  dice_number = [1, 2, 3, 4, 5, 6]
-  dice = rand(dice_number)
+  dice = [1, 2, 3, 4, 5, 6]
+  dice.sample
 end
